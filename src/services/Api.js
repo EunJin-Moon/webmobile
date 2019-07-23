@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:462b5a1466b65e768306b2c09b2b4aa976d76aea75185d525ad413131c36566e
-size 279
+import axios from "axios"
+
+export default baseURL => {
+  return axios.create({
+    baseURL: baseURL,
+    withCredentials: false,
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      "PRIVATE-TOKEN": "NG4ay6qjxEtiqLv53gCX"
+    }
+  })
+}
