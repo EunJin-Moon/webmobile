@@ -6,6 +6,25 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     accessToken: "",
-    user: ""
+    user: "",
+    // kimyong
+    portfolio:{
+      ptitle:"",
+      pdate:"",
+      peditor:"",
+      pbody:"",
+      pimgSrc:"",
+      pidx:0,
+      pid:""
+    }
+    // kimyong
+  },
+  mutations: {
+    Portpolioidx: (state, payload) => {
+      state.portfolio = payload
+    }
+  },
+  actions: {
+
   }
 })
