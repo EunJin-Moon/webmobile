@@ -1,30 +1,3 @@
-import Vue from "vue"
-import Vuex from "vuex"
-
-Vue.use(Vuex)
-
-export default new Vuex.Store({
-  state: {
-    accessToken: "",
-    user: "",
-    // kimyong
-    portfolio:{
-      ptitle:"",
-      pdate:"",
-      peditor:"",
-      pbody:"",
-      pimgSrc:"",
-      pidx:0,
-      pid:""
-    }
-    // kimyong
-  },
-  mutations: {
-    Portpolioidx: (state, payload) => {
-      state.portfolio = payload
-    }
-  },
-  actions: {
-
-  }
-})
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd43c9c3f818b101337ddebdeec6f4a2afffda3d31452814ed3985f591aded8d
+size 596
