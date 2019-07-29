@@ -10,9 +10,9 @@
 export default {
   name: "homePage",
   components: {
-    memberCarousel: () => import("../components/MemberCarousel.vue"),
-    gitRepositories: () => import("../components/GitRepositories.vue"),
-    ImgBanner: () => import("../components/ImgBanner.vue")
+    memberCarousel: () => import("../components/Home/MemberCarousel.vue"),
+    gitRepositories: () => import("../components/Git/GitRepositories.vue"),
+    ImgBanner: () => import("../components/ImgBanner/ImgBanner.vue")
   },
   data () {
     return {
