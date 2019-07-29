@@ -1,27 +1,3 @@
-import Vue from "vue"
-import Vuex from "vuex"
-
-Vue.use(Vuex)
-
-export default new Vuex.Store({
-  state: {
-    lorem: "Lorem ipsum dolor sit amet.",
-    count: 0
-  },
-  mutations: { // sync
-    countUp (state, payload) {
-      state.count += payload.amount * payload.mult
-    }
-  },
-  actions: { // async
-
-  },
-  getters: {
-    getLorem (state) {
-      return state.lorem
-    },
-    getCount (state) {
-      return state.count
-    }
-  }
-})
+version https://git-lfs.github.com/spec/v1
+oid sha256:281c82519e859b5b2ac541979d82890e11a0b731601ce7cb7de3ab0005fd38b7
+size 670
