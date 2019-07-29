@@ -1,6 +1,6 @@
 <template>
   <div>
-    <parallaxImg />
+    <ImgBanner />
     <memberCarousel />
     <gitRepositories />
   </div>
@@ -10,9 +10,9 @@
 export default {
   name: "home",
   components: {
-    parallaxImg: () => import("../components/ParallaxBanner.vue"),
     memberCarousel: () => import("../components/MemberCarousel.vue"),
-    gitRepositories: () => import("../components/GitRepositories.vue")
+    gitRepositories: () => import("../components/GitRepositories.vue"),
+    ImgBanner: () => import("../components/ImgBanner.vue")
   },
   data () {
     return {
