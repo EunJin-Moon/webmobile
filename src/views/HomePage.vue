@@ -1,32 +1,3 @@
-<template>
-  <div>
-    <ImgBanner />
-    <memberCarousel />
-    <gitRepositories />
-  </div>
-</template>
-
-<script>
-export default {
-  name: "homePage",
-  components: {
-    memberCarousel: () => import("../components/Home/MemberCarousel.vue"),
-    gitRepositories: () => import("../components/Git/GitRepositories.vue"),
-    ImgBanner: () => import("../components/ImgBanner/ImgBanner.vue")
-  },
-  data () {
-    return {
-
-    }
-  },
-  mounted () {
-
-  },
-  methods: {
-
-  }
-}
-</script>
-
-<style>
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0221cb695c132550b5dba86abfed275690ab4c77b159bcf1f69716ab3d02cb72
+size 656
