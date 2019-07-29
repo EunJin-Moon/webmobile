@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e7444415c239ef21cb8f37313e1082b83b5a5852903e29d557a486c8abeb8b7
-size 618
+<template>
+  <div>
+    <v-container>
+      <!-- Portfolio -->
+      <v-layout>
+        <v-flex xs12>
+          <PortfolioList :limits="6" :load-more="true"></PortfolioList>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </div>
+</template>
+
+<script>
+import PortfolioList from "../components/Document/PortfolioList"
+
+export default {
+  name: "PortfolioPage",
+  components: {
+    PortfolioList
+  }
+}
+</script>

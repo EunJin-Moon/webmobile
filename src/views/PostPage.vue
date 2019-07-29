@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5f45de5bcf074e57fccdd166e2eaa3c783d18aba052283bd1e4a61343cc72a34
-size 578
+<template>
+  <div>
+    
+    <v-container>
+      <!-- Post -->
+      <v-layout>
+        <v-flex xs12>
+          <PostList :limits="6" :load-more="true"></PostList>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </div>
+</template>
+
+<script>
+import PostList from "../components/Document/PostList"
+
+export default {
+  name: "postPage",
+  components: {
+    PostList
+  }
+}
+</script>
