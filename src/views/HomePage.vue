@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "home",
+  name: "homePage",
   components: {
     memberCarousel: () => import("../components/MemberCarousel.vue"),
     gitRepositories: () => import("../components/GitRepositories.vue"),
