@@ -1,5 +1,5 @@
 <template>
-  <v-snackbar v-model="snackbar" :right="true" :timeout="2000">
+  <v-snackbar :value="snackbar" :right="true" :timeout="2000">
     Ctrl + D로 즐겨찾기 해보세요 ^^
     <v-btn color="pink" text @click="setSnackbar()">close</v-btn>
   </v-snackbar>
