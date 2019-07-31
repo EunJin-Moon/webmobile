@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="indigo" app style="justify-content:center;">
+  <v-footer color="indigo" app style="justify-content:center; position: absolute;">
     <span class="white--text">&copy; 5959 Assistent - SSAFY 1 GJ</span>
   </v-footer>
 </template>
