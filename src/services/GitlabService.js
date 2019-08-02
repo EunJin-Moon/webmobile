@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:daeac240977a581ca4680d45b6dbbad2c4a62b6414ac0c5439ccc48a5ba1c456
-size 722
+import Api from "@/services/Api"
+const BASE_URL = "https://lab.ssafy.com/api/v4"
+
+export default {
+  getEvents (page) {
+    return Api(BASE_URL).get(
+      `/projects/7553/events?sort=asc&per_page=100&page=${page}`
+    )
+  },
+  getMerges (page) {
+    return Api(BASE_URL).get(
+      `/projects/7553/merge_requests?sort=asc&per_page=100&page=${page}`
+    )
+  },
+  getMembers () {
+    return Api(BASE_URL).get("/projects/7553/members")
+  }
+}
