@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:13c7d001fbd798780417ccdbc1fbedb729bf2d4d4ed4781933bb2532bba9b996
-size 251
+<template>
+  <v-footer color="indigo" app style="justify-content:center;">
+    <span class="white--text">&copy; 5959 Assistent - SSAFY 1 GJ</span>
+  </v-footer>
+</template>
+
+<script>
+export default {
+  name: "mainFooter"
+}
+</script>
+
+<style>
+</style>

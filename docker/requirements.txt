@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1df4a1b7e6ffbd55ecc51cef5979bf11b1c8f28c2cd713ad25dc90ef8f8fb3a2
-size 24
+flask
+redis
+oauth2client

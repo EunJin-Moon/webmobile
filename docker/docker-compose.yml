@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d19a1aaa7455ff81bdc1290f13f21136a7dcbaca8e274101d4d41022268bc271
-size 108
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+  redis:
+    image: "redis:alpine"
