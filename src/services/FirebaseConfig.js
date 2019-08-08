@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e2a8610e9ff45113424f8eae2e83ce1185ee920faa90dcc912ee25351f8ba0fb
-size 353
+export const config = {
+  apiKey: "AIzaSyC0po_hS-_IsiBOYPBkHbL1ux7c_sqexMc",
+  authDomain: "webmobile02-b19c9.firebaseapp.com",
+  databaseURL: "https://webmobile02-b19c9.firebaseio.com",
+  projectId: "webmobile02-b19c9",
+  storageBucket: "webmobile02-b19c9.appspot.com",
+  messagingSenderId: "3779265069",
+  appId: "1:3779265069:web:a91fab72f082273f"
+}
