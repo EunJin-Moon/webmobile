@@ -10,4 +10,4 @@ export default baseURL => {
       "PRIVATE-TOKEN": "NG4ay6qjxEtiqLv53gCX"
     }
   })
-};
+}
