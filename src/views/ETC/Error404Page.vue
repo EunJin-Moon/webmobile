@@ -11,7 +11,7 @@ export default {
   name: "error404Page",
   methods: {
     getImg (filename) {
-      return require("../../public/img/" + filename)
+      return require("../../../public/img/" + filename)
     }
   }
 }
