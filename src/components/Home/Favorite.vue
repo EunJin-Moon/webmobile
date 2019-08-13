@@ -1,6 +1,6 @@
 <template>
   <v-snackbar :value="snackbar" :right="true" :timeout="2000">
-    Ctrl + D로 즐겨찾기 해보세요 ^^
+    Ctrl + D로 즐겨찾기 해보세요 :)
     <v-btn color="pink" text @click="setSnackbar()">close</v-btn>
   </v-snackbar>
 </template>
@@ -20,6 +20,3 @@ export default {
   }
 }
 </script>
-
-<style>
-</style>

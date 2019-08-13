@@ -1,11 +1,3 @@
-importScripts("https://www.gstatic.com/firebasejs/4.8.1/firebase-app.js")
-importScripts("https://www.gstatic.com/firebasejs/4.8.1/firebase-messaging.js")
-
-const messaging = firebase.messaging()
-messaging.setBackgroundMessageHandler(function (payload) {
-  const title = "Hello World"
-  const options = {
-    body: payload.data.status
-  }
-  return self.registration.showNotification(title, options)
-})
+version https://git-lfs.github.com/spec/v1
+oid sha256:325c85ef10951f0264943c7b1e22a72d00eb9902a482bf9898be627dba918259
+size 694
