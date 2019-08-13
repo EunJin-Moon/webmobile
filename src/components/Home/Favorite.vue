@@ -1,25 +1,3 @@
-<template>
-  <v-snackbar :value="snackbar" :right="true" :timeout="2000">
-    Ctrl + D로 즐겨찾기 해보세요 ^^
-    <v-btn color="pink" text @click="setSnackbar()">close</v-btn>
-  </v-snackbar>
-</template>
-
-<script>
-export default {
-  name: "favorite",
-  computed: {
-    snackbar () {
-      return this.$store.getters.getSnackbar
-    }
-  },
-  methods: {
-    setSnackbar () {
-      this.$store.commit("setSnackbar")
-    }
-  }
-}
-</script>
-
-<style>
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:04849d00cbdee96da08d2df6462c528b03ed7fc02416563095c860c87e8ab0d4
+size 444
