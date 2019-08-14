@@ -1,29 +1,3 @@
-# modernweb
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fdfa003a366c4ca71f878161ffe6e184ffa862b2991c659647d8afdf351af47
+size 407
