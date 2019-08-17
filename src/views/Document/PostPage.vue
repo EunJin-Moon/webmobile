@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8ff264a9b58bca1ed8a2ffb2fdf742aac97f090ea0f80481707e5b1fd0220287
-size 549
+<template>
+  <div>
+    <ParallaxTitle :title="name" />
+    <v-container>
+      <!-- Post -->
+      <PostList :limits="6" :load-more="true"></PostList>
+    </v-container>
+  </div>
+</template>
+
+<script>
+import PostList from "@/components/Document/PostList"
+
+export default {
+  name: "postPage",
+  components: {
+    PostList,
+    ParallaxTitle: () => import("@/components/ImgBanner/ParallaxTitle.vue")
+  },
+  data () {
+    return {
+      name: "Post"
+    }
+  }
+}
+</script>
